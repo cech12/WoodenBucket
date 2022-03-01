@@ -1,0 +1,5 @@
+{
+  "item.woodenbucket.wooden_bucket": "Cubo de madera",
+  "item.woodenbucket.wooden_bucket.entity": "Cubo de madera con %s",
+  "item.woodenbucket.wooden_bucket.filled": "Cubo de madera con %s"
+}
