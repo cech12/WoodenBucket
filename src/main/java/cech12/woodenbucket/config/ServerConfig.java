@@ -8,11 +8,11 @@ import java.nio.file.Path;
 
 public class ServerConfig {
 
-    public static final int DEFAULT_BREAK_TEMPERATURE = 1000;
-
     public static ForgeConfigSpec SERVER_CONFIG;
 
-    public static final ForgeConfigSpec.IntValue BREAK_TEMPERATURE;
+    public static final ForgeConfigSpec.IntValue CRACKING_TEMPERATURE;
+    public static final ForgeConfigSpec.IntValue BURNING_TEMPERATURE;
+    public static final ForgeConfigSpec.IntValue FREEZING_TEMPERATURE;
     public static final ForgeConfigSpec.BooleanValue MILKING_ENABLED;
     public static final ForgeConfigSpec.BooleanValue FISH_OBTAINING_ENABLED;
     public static final ForgeConfigSpec.IntValue DURABILITY;
@@ -22,9 +22,17 @@ public class ServerConfig {
 
         builder.push("Balance Options");
 
-        BREAK_TEMPERATURE = builder
-                .comment("Minimum temperature of fluid at which the Wooden Bucket breaks when emptied. (-1 means that bucket never breaks caused by high fluid temperature)")
-                .defineInRange("breakTemperature", DEFAULT_BREAK_TEMPERATURE, -1, 10000);
+        CRACKING_TEMPERATURE = builder
+                .comment("Minimum temperature of fluid at which the Wooden Bucket breaks when emptied.")
+                .defineInRange("crackingTemperature", 1000, -10000, 10000);
+
+        BURNING_TEMPERATURE = builder
+                .comment("Fluid temperature from which you get a burning effect if a bucket contains this fluid.")
+                .defineInRange("burningTemperature", 1000, -10000, 10000);
+
+        FREEZING_TEMPERATURE = builder
+                .comment("Fluid temperature from which you get a freezing effect if a bucket contains this fluid.")
+                .defineInRange("freezingTemperature", -1, -10000, 10000);
 
         MILKING_ENABLED = builder
                 .comment("Whether or not milking entities with a Wooden Bucket should be enabled.")

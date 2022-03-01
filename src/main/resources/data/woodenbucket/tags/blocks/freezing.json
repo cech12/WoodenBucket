@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "_comment" : "All listed blocks give freezing effect when a wooden bucket contains them.",
+  "values": [
+    "minecraft:powder_snow"
+  ]
+}

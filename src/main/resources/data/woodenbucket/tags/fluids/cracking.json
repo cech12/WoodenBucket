@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "_comment" : "All listed fluids are breaking a wooden bucket unrelated to the breakTemperature config.",
+  "_comment" : "All listed fluids are breaking a wooden bucket unrelated to the crackingTemperature config.",
   "values": [
   ]
 }

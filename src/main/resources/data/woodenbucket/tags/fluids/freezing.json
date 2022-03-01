@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "_comment" : "All listed fluids give freezing effect when a wooden bucket contains them unrelated to the freezingTemperature config.",
+  "values": [
+  ]
+}
