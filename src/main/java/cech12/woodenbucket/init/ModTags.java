@@ -18,7 +18,6 @@ public class ModTags {
         public static final Tag.Named<Fluid> CRACKING = tag("cracking");
         public static final Tag.Named<Fluid> BURNING = tag("burning");
         public static final Tag.Named<Fluid> FREEZING = tag("freezing");
-        public static final Tag.Named<Fluid> DENY_FLUIDS = tag("deny_fluids");
 
         private static Tag.Named<Fluid> tag(@Nonnull String name) {
             return FluidTags.bind(WoodenBucketMod.MOD_ID + ":" + name);
@@ -28,22 +27,11 @@ public class ModTags {
 
     public static class Blocks {
 
-        public static final Tag.Named<Block> DENY_BLOCKS = tag("deny_blocks");
         public static final Tag.Named<Block> BURNING = tag("burning");
         public static final Tag.Named<Block> FREEZING = tag("freezing");
 
         private static Tag.Named<Block> tag(@Nonnull String name) {
             return BlockTags.bind(WoodenBucketMod.MOD_ID + ":" + name);
-        }
-
-    }
-
-    public static class Entities {
-
-        public static final Tag.Named<EntityType<?>> DENY_ENTITIES = tag("deny_entities");
-
-        private static Tag.Named<EntityType<?>> tag(@Nonnull String name) {
-            return EntityTypeTags.bind(WoodenBucketMod.MOD_ID + ":" + name);
         }
 
     }

@@ -30,9 +30,6 @@ public class WoodenBucketMod {
     public static final RegistryObject<Item> WOODEN_BUCKET = ITEMS.register("wooden_bucket", () -> new UniversalBucketItem(
             new UniversalBucketItem.Properties()
                     .durability(ServerConfig.DURABILITY)
-                    .blockedFluids(ModTags.Fluids.DENY_FLUIDS)
-                    .blockedBlocks(ModTags.Blocks.DENY_BLOCKS)
-                    .blockedEntities(ModTags.Entities.DENY_ENTITIES)
                     .upperCrackingTemperature(ServerConfig.CRACKING_TEMPERATURE)
                     .burningTemperature(ServerConfig.BURNING_TEMPERATURE)
                     .burningFluids(ModTags.Fluids.BURNING)

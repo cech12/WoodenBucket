@@ -27,6 +27,6 @@ license="The MIT License (MIT)"
 [[dependencies.woodenbucket]]
     modId="bucketlib"
     mandatory=true
-    versionRange="[1.18.1-0.5.0.0,)"
+    versionRange="[1.18.1-0.5.0.1,)"
     ordering="NONE"
     side="BOTH"
