@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[39,)"
+loaderVersion="[40,)"
 issueTrackerURL="https://github.com/cech12/WoodenBucket/issues"
 license="The MIT License (MIT)"
 [[mods]]
@@ -15,18 +15,18 @@ license="The MIT License (MIT)"
 [[dependencies.woodenbucket]]
     modId="forge"
     mandatory=true
-    versionRange="[39.1.2,)"
+    versionRange="[40.0.2,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.woodenbucket]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.1,1.19)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.woodenbucket]]
     modId="bucketlib"
     mandatory=true
-    versionRange="[1.18.1-0.5.0.1,)"
+    versionRange="[1.18.2-0.5.1.0,)"
     ordering="NONE"
     side="BOTH"
