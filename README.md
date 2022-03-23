@@ -10,6 +10,8 @@ This is a **Minecraft Forge** mod that adds a **Wooden Bucket** to the game.
 
 The library mod [BucketLib](https://www.curseforge.com/minecraft/mc-mods/bucketlib) is required.
 
+![All Buckets](material/all_buckets.png)
+
 The **Wooden Bucket** acts like a normal bucket and can contain **water**, **lava**, **milk** **powder snow** and **axolotl**/**fish**.
 
 Special features of a Wooden Bucket:
