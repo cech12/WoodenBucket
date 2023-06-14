@@ -27,7 +27,7 @@ license="The MIT License (MIT)"
 [[dependencies.woodenbucket]]
     modId="bucketlib"
     mandatory=true
-    versionRange="[1.20-2.0.0.0,)"
+    versionRange="[1.20.1-2.1.0.0,)"
     referralUrl="https://github.com/cech12/BucketLib"
     ordering="NONE"
     side="BOTH"
