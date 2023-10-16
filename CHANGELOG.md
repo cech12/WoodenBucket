@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Forge Recommended Versioning](https://mcforge.readthedocs.io/en/latest/conventions/versioning/).
 
-## [1.20.1-2.2.0.0] - 2023-10-16
+## [1.20.2-2.2.0.0] - 2023-10-16
 ### Changed
 - update and move back to Forge 1.20.2-48.0.23 (from NeoForge) until it is stable
 
