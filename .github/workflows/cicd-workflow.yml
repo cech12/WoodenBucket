@@ -78,7 +78,7 @@ jobs:
       java-version: 17
       subproject: neoforge
       title-prefix: neoforge-
-      curseforge-id: 363799
+      curseforge-id: 585328
       game-versions: |
         1.20.2
       release-type: release
@@ -96,7 +96,7 @@ jobs:
       java-version: 17
       subproject: neoforge
       title-prefix: neoforge-
-      modrinth-id: M9G5zpf1
+      modrinth-id: xsNAEIke
       game-versions: |
         1.20.2
       release-type: release
