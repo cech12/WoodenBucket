@@ -32,19 +32,19 @@ public class NeoForgeConfigHelper implements IConfigHelper {
         builder.push("Balance Options");
 
         BREAK_TEMPERATURE = builder
-                .comment("Minimum temperature of fluid at which the Ceramic Bucket breaks when emptied. (-1 means that bucket never breaks caused by high fluid temperature)")
-                .defineInRange("ceramicBucketBreakTemperature", BREAK_TEMPERATURE_DEFAULT, -1, 10000);
+                .comment("Minimum temperature of fluid at which the Wooden Bucket breaks when emptied. (-1 means that bucket never breaks caused by high fluid temperature)")
+                .defineInRange("crackingTemperature", BREAK_TEMPERATURE_DEFAULT, -10000, 10000);
 
         BURNING_TEMPERATURE = builder
                 .comment("Fluid temperature from which you get a burning effect if a bucket contains this fluid.")
                 .defineInRange("burningTemperature", BURNING_TEMPERATURE_DEFAULT, -10000, 10000);
 
         DURABILITY = builder
-                .comment("Defines the maximum durability of a Ceramic Bucket. (0 deactivates the durability)")
+                .comment("Defines the maximum durability of a Wooden Bucket. (0 deactivates the durability)")
                 .defineInRange("durability", DURABILITY_DEFAULT, 0, 10000);
 
         FISH_OBTAINING_ENABLED = builder
-                .comment("Whether or not obtaining fish with a Ceramic Bucket should be enabled.")
+                .comment("Whether or not obtaining fish with a Wooden Bucket should be enabled.")
                 .define("fishObtainingEnabled", FISH_OBTAINING_ENABLED_DEFAULT);
 
         FREEZING_TEMPERATURE = builder

@@ -10,7 +10,7 @@ public interface IConfigHelper {
     /** Default value of burning temperature */
     int BURNING_TEMPERATURE_DEFAULT = 1000;
     /** Default value of durability */
-    int DURABILITY_DEFAULT = 0;
+    int DURABILITY_DEFAULT = 25;
     /** Default value of fish obtaining option */
     boolean FISH_OBTAINING_ENABLED_DEFAULT = true;
     /** Default value of freezing temperature */
