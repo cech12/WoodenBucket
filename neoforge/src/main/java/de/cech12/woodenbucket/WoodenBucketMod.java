@@ -11,12 +11,11 @@ import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-@Mod(WoodenBucketMod.MOD_ID)
+@SuppressWarnings("unused")
+@Mod(Constants.MOD_ID)
 public class WoodenBucketMod {
 
-    public static final String MOD_ID = "woodenbucket";
-
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Constants.MOD_ID);
 
     public static final DeferredItem<Item> WOODEN_BUCKET = ITEMS.register("wooden_bucket", () -> new UniversalBucketItem(
             new UniversalBucketItem.Properties()

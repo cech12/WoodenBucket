@@ -9,11 +9,20 @@
 [![License](https://img.shields.io/github/license/cech12/WoodenBucket)](http://opensource.org/licenses/MIT) 
 [![](https://img.shields.io/discord/752506676719910963.svg?style=flat&color=informational&logo=discord&label=Discord)](https://discord.gg/gRUFH5t)
 
-This is a **Minecraft Forge** mod that adds a **Wooden Bucket** to the game.
-
-The library mod [BucketLib](https://www.curseforge.com/minecraft/mc-mods/bucketlib) is required.
+This is a Minecraft mod that adds a **Wooden Bucket** to the game. (Forge, NeoForge, Fabric, Quilt)
 
 ![All Buckets](material/all_buckets.png)
+
+## Dependencies
+
+The library mod BucketLib ([Github](https://github.com/cech12/BucketLib/), [Curseforge](https://www.curseforge.com/minecraft/mc-mods/bucketlib), [Modrinth](https://modrinth.com/mod/bucketlib)) is required.
+
+The Fabric / Quilt version needs also the following mods:
+
+- Fabric API ([Github](https://github.com/FabricMC/fabric), [Curseforge](https://www.curseforge.com/minecraft/mc-mods/fabric-api), [Modrinth](https://modrinth.com/mod/fabric-api))
+- Cloth Config API ([Github](https://github.com/shedaniel/cloth-config), [Curseforge](https://www.curseforge.com/minecraft/mc-mods/cloth-config), [Modrinth](https://modrinth.com/mod/cloth-config))
+
+## Features
 
 The **Wooden Bucket** acts like a normal bucket and can contain **water**, **lava**, **milk** **powder snow** and **axolotl**/**fish**.
 

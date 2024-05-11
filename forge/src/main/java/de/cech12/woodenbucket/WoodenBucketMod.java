@@ -13,13 +13,12 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-@Mod(WoodenBucketMod.MOD_ID)
-@Mod.EventBusSubscriber(modid = WoodenBucketMod.MOD_ID)
+@SuppressWarnings("unused")
+@Mod(Constants.MOD_ID)
+@Mod.EventBusSubscriber(modid = Constants.MOD_ID)
 public class WoodenBucketMod {
 
-    public static final String MOD_ID = "woodenbucket";
-
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
 
     public static final RegistryObject<Item> WOODEN_BUCKET = ITEMS.register("wooden_bucket", () -> new UniversalBucketItem(
             new UniversalBucketItem.Properties()

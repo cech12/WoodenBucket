@@ -32,27 +32,27 @@ public class ForgeConfigHelper implements IConfigHelper {
         builder.push("Balance Options");
 
         BREAK_TEMPERATURE = builder
-                .comment("Minimum temperature of fluid at which the Wooden Bucket breaks when emptied. (-1 means that bucket never breaks caused by high fluid temperature)")
-                .defineInRange("crackingTemperature", BREAK_TEMPERATURE_DEFAULT, -10000, 10000);
+                .comment(BREAK_TEMPERATURE_DESCRIPTION)
+                .defineInRange("crackingTemperature", BREAK_TEMPERATURE_DEFAULT, BREAK_TEMPERATURE_MIN, BREAK_TEMPERATURE_MAX);
 
         BURNING_TEMPERATURE = builder
-                .comment("Fluid temperature from which you get a burning effect if a bucket contains this fluid.")
-                .defineInRange("burningTemperature", BURNING_TEMPERATURE_DEFAULT, -10000, 10000);
+                .comment(BURNING_TEMPERATURE_DESCRIPTION)
+                .defineInRange("burningTemperature", BURNING_TEMPERATURE_DEFAULT, BURNING_TEMPERATURE_MIN, BURNING_TEMPERATURE_MAX);
 
         DURABILITY = builder
-                .comment("Defines the maximum durability of a Wooden Bucket. (0 deactivates the durability)")
-                .defineInRange("durability", DURABILITY_DEFAULT, 0, 10000);
+                .comment(DURABILITY_DESCRIPTION)
+                .defineInRange("durability", DURABILITY_DEFAULT, DURABILITY_MIN, DURABILITY_MAX);
 
         FISH_OBTAINING_ENABLED = builder
-                .comment("Whether or not obtaining fish with a Wooden Bucket should be enabled.")
+                .comment(FISH_OBTAINING_ENABLED_DESCRIPTION)
                 .define("fishObtainingEnabled", FISH_OBTAINING_ENABLED_DEFAULT);
 
         FREEZING_TEMPERATURE = builder
-                .comment("Fluid temperature from which you get a freezing effect if a bucket contains this fluid.")
-                .defineInRange("freezingTemperature", FREEZING_TEMPERATURE_DEFAULT, -10000, 10000);
+                .comment(FREEZING_TEMPERATURE_DESCRIPTION)
+                .defineInRange("freezingTemperature", FREEZING_TEMPERATURE_DEFAULT, FREEZING_TEMPERATURE_MIN, FREEZING_TEMPERATURE_MAX);
 
         MILKING_ENABLED = builder
-                .comment("Whether or not milking entities with a Wooden Bucket should be enabled.")
+                .comment(MILKING_ENABLED_DESCRIPTION)
                 .define("milkingEnabled", MILKING_ENABLED_DEFAULT);
 
         builder.pop();
