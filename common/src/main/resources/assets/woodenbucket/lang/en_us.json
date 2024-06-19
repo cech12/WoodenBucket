@@ -1,4 +1,10 @@
 {
+  "tag.block.woodenbucket.burning": "Blocks that result in burning effect",
+  "tag.block.woodenbucket.freezing": "Blocks that result in freezing effect",
+  "tag.fluid.woodenbucket.burning": "Fluids that result in burning effect",
+  "tag.fluid.woodenbucket.cracking": "Fluids that crack the Wooden Bucket",
+  "tag.fluid.woodenbucket.freezing": "Fluids that result in freezing effect",
+
   "item.woodenbucket.wooden_bucket": "Wooden Bucket",
   "item.woodenbucket.wooden_bucket.entity": "Wooden Bucket of %s",
   "item.woodenbucket.wooden_bucket.filled": "Wooden %s Bucket",

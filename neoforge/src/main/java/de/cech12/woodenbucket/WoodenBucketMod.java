@@ -7,7 +7,7 @@ import de.cech12.woodenbucket.platform.Services;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -40,8 +40,8 @@ public class WoodenBucketMod {
         modEventBus.addListener(this::sendImc);
     }
 
-    private void sendImc(InterModEnqueueEvent evt) {
-        BucketLibApi.registerBucket(WOODEN_BUCKET.getId());
+    private void sendImc(RegisterCapabilitiesEvent evt) {
+        BucketLibApi.registerBucket(evt, WOODEN_BUCKET.getId());
     }
 
 }
