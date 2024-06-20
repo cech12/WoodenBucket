@@ -3,11 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Forge Recommended Versioning](https://mcforge.readthedocs.io/en/latest/conventions/versioning/).
 
-## [1.20.6-3.3.0.0] - 2024-06-19
+## [1.20.6-3.3.0.0] - 2024-06-20
 ### Changed
 - Updated to Minecraft 1.20.6 (Fabric 0.98.0+1.20.6, Neoforge 20.6.119)
 - Removed Forge support until the capability system is re-added
-- Updated BucketLib to 1.20.6-3.3.0.2
+- Updated BucketLib to 1.20.6-3.3.0.3
 - Updated Cloth Config support (14.0.126) (Fabric/Quilt)
 - Updated ModMenu support (10.0.0-beta.1) (Fabric/Quilt)
 

@@ -63,4 +63,10 @@ tasks.withType(ProcessResources).matching(notNeoTask).configureEach {
     from project(":common").sourceSets.main.resources
 }
 
-test.onlyIf { false } //disable tests
+//disable tests
+test.onlyIf { false }
+tasks.configureEach { task ->
+    if (task.name.startsWith("testJunit")) {
+        task.enabled = false
+    }
+}
