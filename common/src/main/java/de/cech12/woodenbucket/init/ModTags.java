@@ -2,7 +2,6 @@ package de.cech12.woodenbucket.init;
 
 import de.cech12.woodenbucket.Constants;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.Fluid;
@@ -18,7 +17,7 @@ public class ModTags {
         public static final TagKey<Fluid> FREEZING = tag("freezing");
 
         private static TagKey<Fluid> tag(@Nonnull String name) {
-            return TagKey.create(Registries.FLUID, new ResourceLocation(Constants.MOD_ID, name));
+            return TagKey.create(Registries.FLUID, Constants.id(name));
         }
 
     }
@@ -29,7 +28,7 @@ public class ModTags {
         public static final TagKey<Block> FREEZING = tag("freezing");
 
         private static TagKey<Block> tag(@Nonnull String name) {
-            return TagKey.create(Registries.BLOCK, new ResourceLocation(Constants.MOD_ID, name));
+            return TagKey.create(Registries.BLOCK, Constants.id(name));
         }
 
     }

@@ -13,7 +13,7 @@ import net.minecraft.world.item.Item;
 @SuppressWarnings("unused")
 public class WoodenBucketMod implements ModInitializer {
 
-    public static final ResourceLocation WOODEN_BUCKET_LOCATION = new ResourceLocation(Constants.MOD_ID, "wooden_bucket");
+    public static final ResourceLocation WOODEN_BUCKET_LOCATION = Constants.id("wooden_bucket");
 
     public static final Item WOODEN_BUCKET = Registry.register(BuiltInRegistries.ITEM, WOODEN_BUCKET_LOCATION, new UniversalBucketItem(new UniversalBucketItem.Properties()
             .durability(Services.CONFIG::getDurability)
