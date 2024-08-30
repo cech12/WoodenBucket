@@ -14,23 +14,19 @@ import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 @Config(name = Constants.MOD_ID)
 public class FabricConfigHelper implements ConfigData, IConfigHelper {
 
-    @ConfigEntry.Gui.Tooltip(count = 5)
-    @ConfigEntry.BoundedDiscrete(min = BREAK_TEMPERATURE_MIN, max = BREAK_TEMPERATURE_MAX)
+    @ConfigEntry.Gui.Tooltip(count = 6)
     public long BREAK_TEMPERATURE = BREAK_TEMPERATURE_DEFAULT;
 
-    @ConfigEntry.Gui.Tooltip(count = 5)
-    @ConfigEntry.BoundedDiscrete(min = BURNING_TEMPERATURE_MIN, max = BURNING_TEMPERATURE_MAX)
+    @ConfigEntry.Gui.Tooltip(count = 6)
     public long BURNING_TEMPERATURE = BURNING_TEMPERATURE_DEFAULT;
 
-    @ConfigEntry.Gui.Tooltip(count = 4)
-    @ConfigEntry.BoundedDiscrete(min = DURABILITY_MIN, max = DURABILITY_MAX)
+    @ConfigEntry.Gui.Tooltip(count = 5)
     public long DURABILITY = DURABILITY_DEFAULT;
 
     @ConfigEntry.Gui.Tooltip(count = 4)
     public boolean FISH_OBTAINING_ENABLED = FISH_OBTAINING_ENABLED_DEFAULT;
 
-    @ConfigEntry.Gui.Tooltip(count = 5)
-    @ConfigEntry.BoundedDiscrete(min = FREEZING_TEMPERATURE_MIN, max = FREEZING_TEMPERATURE_MAX)
+    @ConfigEntry.Gui.Tooltip(count = 6)
     public long FREEZING_TEMPERATURE = FREEZING_TEMPERATURE_DEFAULT;
 
     @ConfigEntry.Gui.Tooltip(count = 4)
@@ -47,17 +43,17 @@ public class FabricConfigHelper implements ConfigData, IConfigHelper {
 
     @Override
     public int getBreakTemperature() {
-        return (int) getConfig().BREAK_TEMPERATURE;
+        return Math.clamp((int) getConfig().BREAK_TEMPERATURE, BREAK_TEMPERATURE_MIN, BREAK_TEMPERATURE_MAX);
     }
 
     @Override
     public int getBurningTemperature() {
-        return (int) getConfig().BURNING_TEMPERATURE;
+        return Math.clamp((int) getConfig().BURNING_TEMPERATURE, BURNING_TEMPERATURE_MIN, BURNING_TEMPERATURE_MAX);
     }
 
     @Override
     public int getDurability() {
-        return (int) getConfig().DURABILITY;
+        return Math.clamp((int) getConfig().DURABILITY, DURABILITY_MIN, DURABILITY_MAX);
     }
 
     @Override
@@ -67,7 +63,7 @@ public class FabricConfigHelper implements ConfigData, IConfigHelper {
 
     @Override
     public int getFreezingTemperature() {
-        return (int) getConfig().FREEZING_TEMPERATURE;
+        return Math.clamp((int) getConfig().FREEZING_TEMPERATURE, FREEZING_TEMPERATURE_MIN, FREEZING_TEMPERATURE_MAX);
     }
 
     @Override
