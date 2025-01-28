@@ -4,6 +4,8 @@ import de.cech12.bucketlib.api.BucketLibApi;
 import de.cech12.bucketlib.api.item.UniversalBucketItem;
 import de.cech12.woodenbucket.init.ModTags;
 import de.cech12.woodenbucket.platform.Services;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -17,7 +19,8 @@ public class WoodenBucketMod {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Constants.MOD_ID);
 
-    public static final DeferredItem<Item> WOODEN_BUCKET = ITEMS.register("wooden_bucket", () -> new UniversalBucketItem(
+    public static final DeferredItem<Item> WOODEN_BUCKET = ITEMS.register(Constants.WOODEN_BUCKET_NAME, () -> new UniversalBucketItem(
+            ResourceKey.create(BuiltInRegistries.ITEM.key(), Constants.id(Constants.WOODEN_BUCKET_NAME)),
             new UniversalBucketItem.Properties()
                     .durability(Services.CONFIG::getDurability)
                     .upperCrackingTemperature(Services.CONFIG::getBreakTemperature)
