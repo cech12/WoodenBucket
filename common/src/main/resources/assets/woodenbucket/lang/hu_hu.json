@@ -12,7 +12,6 @@
   "text.autoconfig.woodenbucket.title": "Favödör beállítások",
 
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE": "Törési hőmérséklet",
-  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lBreak temperature",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lTörési hőmérséklet",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[1]": "A minimális hőmérséklet, amelynél a",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "Favödör eltörik, ha kiüríted.",
