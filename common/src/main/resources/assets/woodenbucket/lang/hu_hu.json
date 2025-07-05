@@ -1,0 +1,57 @@
+{
+  "tag.block.woodenbucket.burning": "Blokkok amelyek égési hatást eredményeznek",
+  "tag.block.woodenbucket.freezing": "Blokkok amelyek fagyási hatást eredményeznek",
+  "tag.fluid.woodenbucket.burning": "Folyadékok amelyek égési hatást eredményeznek",
+  "tag.fluid.woodenbucket.cracking": "Folyadékok amelyek eltörik a Favödröt",
+  "tag.fluid.woodenbucket.freezing": "Folyadékok amelyek fagyási hatást eredményeznek",
+
+  "item.woodenbucket.wooden_bucket": "Favödör",
+  "item.woodenbucket.wooden_bucket.entity": "%s favödörben",
+  "item.woodenbucket.wooden_bucket.filled": "%s favödörben",
+
+  "text.autoconfig.woodenbucket.title": "Favödör beállítások",
+
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE": "Törési hőmérséklet",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lBreak temperature",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lTörési hőmérséklet",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[1]": "A minimális hőmérséklet, amelynél a",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "Favödör eltörik, ha kiüríted.",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[3]": "§7§oKikapcsolás egy olyan szám beállításával, amely nagyobb, mint a legforróbb folyadék",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[4]": "§7§oMin: -10000; Max: 10000",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[5]": "§7§oAlapérték: 1000",
+
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE": "Égési hőmérséklet",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[0]": "§6§lÉgési hőmérséklet",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[1]": "Folyadék hőmérséklete, amelynél égési hatást kapsz",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[2]": "ha egy Favödör ilyen forró folyadékot tartalmaz.",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[3]": "§7§oKikapcsolás egy olyan szám beállításával, amely nagyobb, mint a legforróbb folyadék",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[4]": "§7§oMin: -10000; Max: 10000",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[5]": "§7§oAlapérték: 1000",
+
+  "text.autoconfig.woodenbucket.option.DURABILITY": "Élettartam",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[0]": "§6§lÉlettartam",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[1]": "Megadja a Favödör maximális élettartamát.",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[2]": "§7§o0: kikapcsolja az élettartamot",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[3]": "§7§oMin: 0; Max: 10000",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[4]": "§7§oAlapérték: 25",
+
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED": "Hal szerzés engedélyezve",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[0]": "§6§lHal szerzés engedélyezve",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[1]": "Lehető-e halat szerezni egy",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[2]": "Favödörrel.",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[3]": "§7§oAlapérték: true",
+
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE": "Fagyási hőmérséklet",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[0]": "§6§lFagyási hőmérséklet",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[1]": "Folyadék hőmérséklete, amelynél fagyási hatást kapsz",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[2]": "ha egy Favödör ilyen hideg folyadékot tartalmaz.",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[3]": "§7§oKikapcsolás egy olyan szám beállításával, amely kisebb, mint a leghidegebb folyadék",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[4]": "§7§oMin: -10000; Max: 10000",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[5]": "§7§oAlapérték: -1",
+
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED": "Fejés engedélyezve",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[0]": "§6§lFejés engedélyezve",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[1]": "Lehetővé teszi-e a fejést",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[2]": "Favödörrel.",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[3]": "§7§oAlapérték: true"
+}
