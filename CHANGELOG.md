@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [this versioning scheme](https://gist.github.com/cech12/69319028e88c50349a6b044000a6607b).
 
 ## [1.20.1-2.1.1.0] - 2025-07-15
+### Changed
+- Updated BucketLib mod to 1.20.1-2.3.7.0
+
 ### Added
 - Added Hungarian translation (thanks to bayi for the contribution) #31
 
