@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [this versioning scheme](https://gist.github.com/cech12/69319028e88c50349a6b044000a6607b).
 
+## [1.20.4-3.2.1.0] - 2025-07-15
+### Added
+- Added Hungarian translation (thanks to bayi for the contribution) #31
+
 ## [1.20.4-3.2.0.0] - 2024-05-11
 ### Added
 - add Fabric (>=0.96.11+1.20.4) support (Fabric, Quilt)
