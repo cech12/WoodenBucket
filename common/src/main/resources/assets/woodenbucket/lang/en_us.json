@@ -23,7 +23,7 @@
   "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[0]": "§6§lDurability",
   "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[1]": "Defines the maximum durability of a Wooden Bucket.",
   "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[2]": "§7§o0: deactivates the durability",
-  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[3]": "§7§oDefault: 0",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[3]": "§7§oDefault: 25",
 
   "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED": "Fish obtaining enabled",
   "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[0]": "§6§lFish obtaining enabled",
