@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [this versioning scheme](https://gist.github.com/cech12/69319028e88c50349a6b044000a6607b).
 
+## [1.21.7-4.5.1.0] - 2026-05-07
+### Changed
+- updated to BucketLib 1.21.7-4.5.0.2
+
+### Added
+- added possibility to use empty wooden buckets as burnables in furnaces (thanks to bixqa for the idea) #35
+
 ## [1.21.7-4.5.0.0] - 2026-04-18
 ### Changed
 - Updated to Minecraft 1.21.7 (Fabric 0.129.0+1.21.7, NeoForge 21.7.25-beta)
