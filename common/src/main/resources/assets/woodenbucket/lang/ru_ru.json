@@ -1,0 +1,56 @@
+{
+  "tag.block.woodenbucket.burning": "Блоки, вызывающие горение",
+  "tag.block.woodenbucket.freezing": "Блоки, вызывающие обморожение",
+  "tag.fluid.woodenbucket.burning": "Жидкости, вызывающие горение",
+  "tag.fluid.woodenbucket.cracking": "Жидкости, ломающие деревянные вёдра",
+  "tag.fluid.woodenbucket.freezing": "Жидкости, вызывающие обморожение",
+
+  "item.woodenbucket.wooden_bucket": "Деревянное ведро",
+  "item.woodenbucket.wooden_bucket.entity": "Деревянное ведро %s",
+  "item.woodenbucket.wooden_bucket.filled": "Деревянное ведро %s",
+
+  "text.autoconfig.woodenbucket.title": "Настройки Wooden Bucket",
+
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE": "Критическая температура",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lКритическая температура",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[1]": "Минимальная температура, при которой",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "деревянное ведро сломается после опутсошения.",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[3]": "§7§oМожно отключить, установив число выше максимально возможной температуры.",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[4]": "§7§oМин.: -10000; Макс.: 10000",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[5]": "§7§oПо умолчанию: 1000",
+
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE": "Температура горения",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[0]": "§6§lТемпература горения",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[1]": "Температура жидкости в деревянном ведре,",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[2]": "при которой игрок начнёт гореть.",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[3]": "§7§oМожно отключить, установив число выше максимально возможной температуры.",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[4]": "§7§oМин.: -10000; Макс.: 10000",
+  "text.autoconfig.woodenbucket.option.BURNING_TEMPERATURE.@Tooltip[5]": "§7§oПо умолчанию: 1000",
+
+  "text.autoconfig.woodenbucket.option.DURABILITY": "Прочность",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[0]": "§6§lПрочность",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[1]": "Максимальная прочность деревянного ведра.",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[2]": "§7§o0 отключает прочность.",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[3]": "§7§oМин.: 0; Макс.: 10000",
+  "text.autoconfig.woodenbucket.option.DURABILITY.@Tooltip[4]": "§7§oПо умолчанию: 25",
+
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED": "Поимка рыб",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[0]": "§6§lПоимка рыб",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[1]": "Возможность ловить рыб при",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[2]": "помощи деревянных вёдер.",
+  "text.autoconfig.woodenbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[3]": "§7§oПо умолчанию: вкл",
+
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE": "Температура обморожения",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[0]": "§6§lТемпература обморожения",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[1]": "Температура жидкости в деревянном ведре,",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[2]": "при которой игрок начнёт замораживаться.",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[3]": "§7§oМожно отключить, установив число ниже минимально возможной температуры.",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[4]": "§7§oМин.: -10000; Макс.: 10000",
+  "text.autoconfig.woodenbucket.option.FREEZING_TEMPERATURE.@Tooltip[5]": "§7§oПо умолчанию: -1",
+
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED": "Доение",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[0]": "§6§lДоение",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[1]": "Возможность получать молоко с существ",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[2]": "при помощи деревянных вёдер.",
+  "text.autoconfig.woodenbucket.option.MILKING_ENABLED.@Tooltip[3]": "§7§oПо умолчанию: вкл"
+}
