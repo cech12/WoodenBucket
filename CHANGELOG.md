@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [this versioning scheme](https://gist.github.com/cech12/69319028e88c50349a6b044000a6607b).
 
+## [1.21.9-4.6.2.0] - 2026-08-18
+### Added
+- language support for Russian (thanks to shaaaaash) #41
+
 ## [1.21.9-4.6.1.0] - 2026-05-07
 ### Changed
 - updated to BucketLib 1.21.9-4.6.0.3
