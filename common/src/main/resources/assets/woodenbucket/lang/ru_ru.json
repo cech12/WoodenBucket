@@ -14,7 +14,7 @@
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE": "Критическая температура",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lКритическая температура",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[1]": "Минимальная температура, при которой",
-  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "деревянное ведро сломается после опутсошения.",
+  "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "деревянное ведро сломается после опустошения.",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[3]": "§7§oМожно отключить, установив число выше максимально возможной температуры.",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[4]": "§7§oМин.: -10000; Макс.: 10000",
   "text.autoconfig.woodenbucket.option.BREAK_TEMPERATURE.@Tooltip[5]": "§7§oПо умолчанию: 1000",
