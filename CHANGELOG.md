@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [this versioning scheme](https://gist.github.com/cech12/69319028e88c50349a6b044000a6607b).
 
+## [26.3-5.2.0.0] - 2026-10-01
+### Changed
+- updated to Minecraft 26.3 (Fabric 0.161.0+26.3, NeoForge 26.3.0.39-beta)
+- updated BucketLib to 26.3-5.3.0.1
+- updated Cloth Config support (26.3.159) (Fabric/Quilt)
+- updated ModMenu support (21.0.0) (Fabric/Quilt)
+
 ## [26.2-5.1.1.0] - 2026-08-18
 ### Added
 - language support for Russian (thanks to shaaaaash) #40
